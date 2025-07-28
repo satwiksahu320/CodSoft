@@ -64,15 +64,11 @@ The project uses **TF-IDF (Term Frequency–Inverse Document Frequency)** for fe
 
 ---
 
-Here’s a clean, copy-paste-ready `README.md` file for your **Credit Card Fraud Detection** project using Logistic Regression, Decision Trees, and Random Forests. You can customize your name and repo link later.
-
----
 
 
 
 
-````markdown
-## 💳 **Credit Card Fraud Detection – CodSoft Internship Task 1**
+## 💳 **Credit Card Fraud Detection – CodSoft Internship Task 2**
 
 This project uses machine learning techniques to classify credit card transactions as **fraudulent** or **legitimate**. We explore three different algorithms — Logistic Regression, Decision Tree, and Random Forest — and compare their performance.
 
