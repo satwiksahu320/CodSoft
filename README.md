@@ -134,20 +134,19 @@ Given the class imbalance, **recall** for the fraud class (label `1`) is especia
 
 ## 📂 Folder Structure
 
-````
 
 ├── CreditCardFraudDetection.ipynb
 ├── dataset.csv
 ├── README.md
 
-```
+
 
 ## 🔐 Note
 
 This notebook is built purely for educational purposes. Real-world fraud detection requires more sophisticated models, real-time features, and compliance with ethical and legal constraints.
 
 
-```
+
 
 
 
