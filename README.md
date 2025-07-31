@@ -149,23 +149,29 @@ This notebook is built purely for educational purposes. Real-world fraud detecti
 
 ```
 
-# 📱 Spam SMS Detection
+# **📱 Spam SMS Detection – CodSoft Internship Task 3**
 
 This project is part of my **CodSoft Internship**, where I built an AI model to detect whether an SMS message is **Spam** or **Ham** (Legitimate).
 
-## 🚀 Technologies Used
+---
+
+## 🚀 **Technologies Used**
 
 - Python
 - Pandas, NumPy
 - Seaborn, Matplotlib
 - Scikit-learn (TF-IDF, Naive Bayes, Logistic Regression, SVM)
 
-## 📁 Dataset
+---
+
+## 📁 **Dataset**
 
 - [UCI SMS Spam Collection Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
 - 5,500+ SMS messages labeled as `spam` or `ham`
 
-## 🧠 Workflow
+---
+
+## 🧠 **Workflow**
 
 1. **Data Preprocessing**
    - Lowercasing
@@ -173,7 +179,7 @@ This project is part of my **CodSoft Internship**, where I built an AI model to 
    - Label encoding (`ham = 0`, `spam = 1`)
 
 2. **Text Vectorization**
-   - Using **TF-IDF** to convert text into numerical features
+   - Used **TF-IDF Vectorizer** to convert text into numerical features
 
 3. **Model Building**
    - ✅ Naive Bayes
@@ -183,11 +189,13 @@ This project is part of my **CodSoft Internship**, where I built an AI model to 
 4. **Evaluation**
    - Accuracy, Precision, Recall, F1-Score
    - Confusion Matrix
-   - Model comparison chart
+   - Model comparison bar chart
 
-## 📊 Results
+---
 
-All models performed with high accuracy. Here's a brief comparison:
+## 📊 **Results**
+
+All models performed with high accuracy. Here's a summary:
 
 | Model               | Accuracy |
 |---------------------|----------|
@@ -195,14 +203,17 @@ All models performed with high accuracy. Here's a brief comparison:
 | Logistic Regression | ~98.5%   |
 | SVM                 | ~98.1%   |
 
-## 📌 Future Enhancements
+---
+
+## 📌 **Future Enhancements**
 
 - Add web deployment using Streamlit or Flask
 - Include real-time SMS prediction
 - Save & load model using `joblib`
 
-
 ---
+
+
 
 
 ### **🙌 Acknowledgment**
