@@ -149,6 +149,60 @@ This notebook is built purely for educational purposes. Real-world fraud detecti
 
 ```
 
+# 📱 Spam SMS Detection
+
+This project is part of my **CodSoft Internship**, where I built an AI model to detect whether an SMS message is **Spam** or **Ham** (Legitimate).
+
+## 🚀 Technologies Used
+
+- Python
+- Pandas, NumPy
+- Seaborn, Matplotlib
+- Scikit-learn (TF-IDF, Naive Bayes, Logistic Regression, SVM)
+
+## 📁 Dataset
+
+- [UCI SMS Spam Collection Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
+- 5,500+ SMS messages labeled as `spam` or `ham`
+
+## 🧠 Workflow
+
+1. **Data Preprocessing**
+   - Lowercasing
+   - Removing punctuation, digits, and whitespaces
+   - Label encoding (`ham = 0`, `spam = 1`)
+
+2. **Text Vectorization**
+   - Using **TF-IDF** to convert text into numerical features
+
+3. **Model Building**
+   - ✅ Naive Bayes
+   - ✅ Logistic Regression
+   - ✅ Support Vector Machine (SVM)
+
+4. **Evaluation**
+   - Accuracy, Precision, Recall, F1-Score
+   - Confusion Matrix
+   - Model comparison chart
+
+## 📊 Results
+
+All models performed with high accuracy. Here's a brief comparison:
+
+| Model               | Accuracy |
+|---------------------|----------|
+| Naive Bayes         | ~97.3%   |
+| Logistic Regression | ~98.5%   |
+| SVM                 | ~98.1%   |
+
+## 📌 Future Enhancements
+
+- Add web deployment using Streamlit or Flask
+- Include real-time SMS prediction
+- Save & load model using `joblib`
+
+
+---
 
 
 ### **🙌 Acknowledgment**
