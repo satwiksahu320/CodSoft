@@ -155,8 +155,8 @@ This notebook is built purely for educational purposes. Real-world fraud detecti
 
 ---
 
-```markdown
-# 📱 **Spam SMS Detection – CodSoft Internship Task 3**
+
+# **📱 Spam SMS Detection – CodSoft Internship Task 3**
 
 This project is part of my **CodSoft Internship**, where I built an AI model to detect whether an SMS message is **Spam** or **Ham** (Legitimate).
 
