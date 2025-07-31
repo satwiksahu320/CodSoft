@@ -156,69 +156,94 @@ This notebook is built purely for educational purposes. Real-world fraud detecti
 ---
 
 
-## **📱 Spam SMS Detection – CodSoft Internship Task 3**
-
-This project is part of my **CodSoft Internship**, where I built an AI model to detect whether an SMS message is **Spam** or **Ham** (Legitimate).
 
 ---
 
-### 🚀 Technologies Used
+````markdown
+## 📱 **Spam SMS Detection – CodSoft Internship Task 3**
 
-- Python
-- Pandas, NumPy
-- Seaborn, Matplotlib
-- Scikit-learn (TF-IDF, Naive Bayes, Logistic Regression, SVM)
+This project is part of my **CodSoft Internship**, where I built an AI model to detect whether an SMS message is **Spam** or **Ham** (legitimate). I explored multiple machine learning algorithms to compare their performance on textual classification.
+
+## 📁 Dataset
+
+The dataset used for this project is the [UCI SMS Spam Collection Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset), containing **5,500+ SMS messages** labeled as `spam` or `ham`.
+
+> ⚠️ Note: Basic preprocessing was applied including lowercasing, punctuation and stopword removal.
+
+## 🧠 Models Used
+
+- **Multinomial Naive Bayes**
+- **Logistic Regression**
+- **Support Vector Machine (SVM)**
+
+## 📊 Evaluation Metrics
+
+Each model was evaluated using:
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+- Classification Report
+
+Due to the binary classification nature, **F1-score and Recall** for spam detection are especially significant.
+
+## ⚙️ Libraries Used
+
+- `pandas`
+- `numpy`
+- `matplotlib`
+- `seaborn`
+- `sklearn` (TfidfVectorizer, train_test_split, MultinomialNB, LogisticRegression, SVC, classification_report, confusion_matrix)
+
+## 📌 Project Highlights
+
+- Preprocessed text data using TF-IDF Vectorization.
+- Compared multiple machine learning classifiers.
+- Evaluated on multiple metrics to select the most effective model.
+- SVM achieved the best overall balance between precision and recall.
+
+## 🧪 How to Run
+
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/your-username/spam-sms-detection.git
+    ```
+2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. Run the notebook or script:
+    ```bash
+    jupyter notebook SpamSMSDetection.ipynb
+    ```
+
+## 📸 Sample Output
+
+| Metric        | Naive Bayes | Logistic Regression | SVM         |
+|---------------|-------------|----------------------|-------------|
+| Accuracy      | 96–97%      | 97–98%               | 98%         |
+| Recall (Spam) | 90–94%      | 92–95%               | 96–98%      |
+
+## 📂 Folder Structure
+
+````
+
+├── SpamSMSDetection.ipynb
+├── spam.csv
+├── README.md
+
+```
+
+## 🔐 Note
+
+This project is a demonstration of basic Natural Language Processing techniques for spam classification. Real-world deployment would require further optimization, pipeline integration, and attention to data privacy.
+
+```
 
 ---
 
-### 📂 Dataset
 
-- [UCI SMS Spam Collection Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
-- 5,500+ SMS messages labeled as `spam` or `ham`
-
----
-
-### 🧠 Workflow
-
-1. **Data Preprocessing**
-   - Lowercasing
-   - Removing punctuation, digits, and whitespaces
-   - Label encoding (`ham = 0`, `spam = 1`)
-
-2. **Text Vectorization**
-   - Used **TF-IDF Vectorizer** to convert text into numerical features
-
-3. **Model Building**
-   - ✅ Naive Bayes
-   - ✅ Logistic Regression
-   - ✅ Support Vector Machine (SVM)
-
-4. **Evaluation**
-   - Accuracy, Precision, Recall, F1-Score
-   - Confusion Matrix
-   - Model comparison bar chart
-
----
-
-### 📊 Results
-
-All models performed with high accuracy. Here's a summary:
-
-| Model               | Accuracy |
-|---------------------|----------|
-| Naive Bayes         | ~97.3%   |
-| Logistic Regression | ~98.5%   |
-| SVM                 | ~98.1%   |
-
----
-
-### 📌 Future Enhancements
-
-- Add web deployment using Streamlit or Flask
-- Include real-time SMS prediction
-- Save & load model using `joblib`
-
----
 
 
 
