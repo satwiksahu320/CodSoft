@@ -156,13 +156,13 @@ This notebook is built purely for educational purposes. Real-world fraud detecti
 ---
 
 
-# **📱 Spam SMS Detection – CodSoft Internship Task 3**
+## **📱 Spam SMS Detection – CodSoft Internship Task 3**
 
 This project is part of my **CodSoft Internship**, where I built an AI model to detect whether an SMS message is **Spam** or **Ham** (Legitimate).
 
 ---
 
-## 🚀 Technologies Used
+### 🚀 Technologies Used
 
 - Python
 - Pandas, NumPy
@@ -171,14 +171,14 @@ This project is part of my **CodSoft Internship**, where I built an AI model to 
 
 ---
 
-## 📂 Dataset
+### 📂 Dataset
 
 - [UCI SMS Spam Collection Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
 - 5,500+ SMS messages labeled as `spam` or `ham`
 
 ---
 
-## 🧠 Workflow
+### 🧠 Workflow
 
 1. **Data Preprocessing**
    - Lowercasing
@@ -200,7 +200,7 @@ This project is part of my **CodSoft Internship**, where I built an AI model to 
 
 ---
 
-## 📊 Results
+### 📊 Results
 
 All models performed with high accuracy. Here's a summary:
 
@@ -212,7 +212,7 @@ All models performed with high accuracy. Here's a summary:
 
 ---
 
-## 📌 Future Enhancements
+### 📌 Future Enhancements
 
 - Add web deployment using Streamlit or Flask
 - Include real-time SMS prediction
