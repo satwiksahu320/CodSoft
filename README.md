@@ -220,19 +220,19 @@ Due to the binary classification nature, **F1-score and Recall** for spam detect
 
 ## 📂 Folder Structure
 
-````
+
 
 ├── SpamSMSDetection.ipynb
 ├── spam.csv
 ├── README.md
 
-```
+
 
 ## 🔐 Note
 
 This project is a demonstration of basic Natural Language Processing techniques for spam classification. Real-world deployment would require further optimization, pipeline integration, and attention to data privacy.
 
-```
+
 
 
 
